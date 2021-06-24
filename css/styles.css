@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*-----Header---------*/
+header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    type: none;
+    padding: 0 3% 0 0;
+}
+li{
+    color: #F3F3F3;
+    padding-right: 10px;
+
+}
+#logoHeader{
+    padding-left: 3%;
+}
+
+/*------Main-------*/
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.delivery{
+    background-image: url(../img/delivery.jpg);
+    height: 35vh;
+    border-radius: 5%;
+}
+.podio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
